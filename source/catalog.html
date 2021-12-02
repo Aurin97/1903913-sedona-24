@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фото и видео</title>
+    <link rel="icon" type="image/svg+xml" href="images/icons/favicon.ico">
+  </head>
+  <body class="page__body">
+    <header class="page-header">
+      <nav class="navigation">
+        <ul class="navigation__list list-reset">
+          <li class="navigation__item">
+            <a class="navigation__link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link navigation__link--active" href="#">Фото и видео</a>
+          </li>
+        </ul>
+        <a class="navigation__logo" href="index.html">
+          <img class="logo" src="images/icons/sedona.svg" width="187" height="96" alt="Логотип">
+        </a>
+        <ul class="navigation__list list-reset">
+          <li class="navigation__item">
+            <a class="navigation-link" href="form.html">Форма отзыва</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="https://htmlacademy.ru/">Htmlacademy</a>
+          </li>
+        </ul>
+        <button class="navigation__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      </nav>
+    </header>
+    <main class="catalog-main">
+      <section class="back-desktop">
+        <div class="back-desktop__bg">
+          <h1 class="visually-hidden">Седона</h1>
+          <img class="back-desktop__sedona" src="images/decor/text-sedona.svg" width="460" height="80" alt="Седона">
+        </div>
+        <div class="back-desktop__content">
+          <p class="back-desktop__place">Фото и видео</p>
+          <p class="back-desktop__reasons">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+        </div>
+      </section>
+      <section class="photogallery">
+        <h2 class="visually-hidden">Фотогалерея</h2>
+        <ul class="photogallery__list list-reset">
+          <li class="photogallery__item photogallery__item--big">
+            <div class="photogallery__img-container">
+              <img src="images/landscapes/photo-1-desktop.jpg" width="1200" height="400" alt="Дорога">
+            </div>
+            <div class="photogallery__content">
+              <div class="photogallery__title">
+                <h3>Народные просторы</h3>
+                <span>Автор фото: Борис</span>
+              </div>
+              <button class="photogallery__like" type="button">1350</button>
+            </div>
+          </li>
+          <li class="photogallery__item">
+            <div class="photogallery__img-container">
+              <img src="images/landscapes/photo-2-desktop.jpg" width="400" height="267" alt="Местная растительность">
+            </div>
+            <div class="photogallery__content">
+              <div class="photogallery__title">
+                <h3>Местная растительность</h3>
+                <span>Автор фото: Сергей</span>
+              </div>
+              <button class="photogallery__like" type="button">143</button>
+            </div>
+          </li>
+          <li class="photogallery__item">
+            <div class="photogallery__img-container">
+              <img src="images/landscapes/photo-3-desktop.jpg" width="400" height="267" alt="Дорога на север">
+            </div>
+            <div class="photogallery__content">
+              <div class="photogallery__title">
+                <h3>Дорога на север</h3>
+                <span>Автор фото: Пётр</span>
+              </div>
+              <button class="photogallery__like" type="button">96</button>
+            </div>
+          </li>
+          <li class="photogallery__item">
+            <div class="photogallery__img-container">
+              <img src="images/landscapes/photo-4-desktop.jpg" width="400" height="267" alt="Мост дьявола">
+            </div>
+            <div class="photogallery__content">
+              <div class="photogallery__title">
+                <h3>Мост дьявола</h3>
+                <span>Автор фото: Антон</span>
+              </div>
+              <button class="photogallery__like" type="button">254</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <h2 class="catalog-main__title">Всё ещё сомневаетесь?</h2>
+      <p class="catalog-main__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+      <img class="catalog-main__img" src="images/landscapes/video-desktop.jpg" width="800" height="500" alt="Видео">
+      <div class="catalog-main__content">
+        <img class="catalog-main__content__replay" src="images/icons/replay.svg" width="16" height="20" alt="Повтор">
+        <div class="catalog-main__content__line">
+          <div class="catalog-main__content__line-circle"></div>
+        </div>
+        <img class="catalog-main__content__subtitles" src="images/icons/subtitles.svg" width="32" height="20" alt="Субтитры">
+        <img class="catalog-main__content__fullscreen" src="images/icons/fullscreen.svg" width="20" height="20" alt="Полноэкранный режим">
+      </div>
+    </main>
+    <footer class="footer">
+      <section class="contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+        <a class="footer__link" href="#">#Visitsedona</a>
+        <ul class="social list-reset">
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="https://twitter.com/htmlacademy_ru">
+              <span class="visually-hidden">твиттер</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">
+              <span class="visually-hidden">Фейсбук</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="http://www.youtube.com/c/HTMLAcademyRUS">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
+          </li>
+        </ul>
+        <p class="footer__text">Разработано</p>
+        <a class="footer__link-html" href="https://htmlacademy.ru/"></a>
+      </section>
+    </footer>
+  </body>
+</html>
