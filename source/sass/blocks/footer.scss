@@ -1,0 +1,48 @@
+.footer__link {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.footer__social-twitter {
+  display: block;
+  background-color: #81B3D2;
+  background-image: url("../img/icons/twitter.svg");
+  background-repeat: no-repeat;
+  background-size: 18px 15px;
+  width: 46px;
+  height: 48px;
+}
+
+.footer__social-facebook {
+  display: block;
+  background-color: #81B3D2;
+  background-image: url("../img/icons/facebook.svg");
+  background-repeat: no-repeat;
+  background-size: 9px 19px;
+  width: 46px;
+  height: 48px;
+}
+
+.footer__social-youtube {
+  display: block;
+  background-color: #81B3D2;
+  background-image: url("../img/icons/youtube.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 14px;
+  width: 46px;
+  height: 48px;
+}
+
+.footer__academy {
+  display: flex;
+}
+
+.footer__link-html {
+  display: block;
+  background-image: url("../img/icons/htmlacademy.svg");
+  background-repeat: no-repeat;
+  background-size: 27px 34px;
+  width: 27px;
+  height: 50px;
+}
