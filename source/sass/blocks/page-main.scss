@@ -1,6 +1,5 @@
 .mountains__bg {
-  background-image: url("../img/decor/intro-triangle.svg"),
-                    url("../img/landscapes/mountains.jpg");
+  background-image: url("../img/decor/intro-triangle.svg"), url("../img/landscapes/mountains.jpg");
   background-repeat: no-repeat;
   background-size: 100% 57px, 100% 389px;
   background-position: center bottom, center;
@@ -41,12 +40,12 @@
 }
 
 .advantages__item-list--color {
-  color: #FFFFFF;
-  background-color: #81B3D2;
+  color: #ffffff;
+  background-color: #81b3d2;
 }
 
 .advantages__item-list--color2 {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .advantages__title {
@@ -154,11 +153,11 @@
 
 .search__btn {
   display: block;
-  background-color: #81B3D2;
+  background-color: #81b3d2;
   margin: 0 auto;
   padding: 15px 32px 18px 32px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;

@@ -1,6 +1,5 @@
 .back-desktop__bg2 {
-  background-image: url("../img/decor/intro-triangle.svg"),
-                    url("../img/landscapes/mountains.jpg");
+  background-image: url("../img/decor/intro-triangle.svg"), url("../img/landscapes/mountains.jpg");
   background-repeat: no-repeat;
   background-size: 100% 57px, cover;
   background-position: center bottom, bottom;
@@ -64,14 +63,14 @@
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
   font-size: 18px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .form__submit {
-  background-color: #81B3D2;;
+  background-color: #81b3d2;
   border: none;
   font-weight: bold;
   font-size: 21px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 19px 33px 14px 32px;
 }
