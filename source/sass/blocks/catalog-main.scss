@@ -1,29 +1,45 @@
-.back-desktop__bg {
-  background-image: url("../img/landscapes/back-desktop.jpg");
+.back-desktop__bg2 {
+  background-image: url("../img/decor/intro-triangle.svg"),
+                    url("../img/landscapes/mountains.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 318px;
-  height: 318px;
+  background-size: 100% 57px, 100% 214px;
+  background-position: center bottom, bottom;
+  min-height: 214px;
+  padding-top: 101px;
 }
 
 .back-desktop__sedona {
   display: block;
   margin: 0 auto;
-  padding: 101px 0 120px 0;
   text-align: center;
+  width: 229px;
+  height: 39px;
+}
+
+.back-desktop__content {
+  padding: 102px 0 30px 0;
 }
 
 .back-desktop__place {
   margin: 0 auto;
-  padding: 102px 0 30px 0;
   text-align: center;
   font-size: 30px;
 }
 
 .back-desktop__reasons {
-  width: 435px;
+  width: 280px;
   margin: 0 auto;
   text-align: center;
   padding-bottom: 67px;
+}
+
+.photogallery__img-container {
+  width: 280px;
+  height: 280px;
+}
+
+.photogallery__img {
+  max-width: 100%;
 }
 
 .photogallery__title {
@@ -32,10 +48,6 @@
 
 .photogallery__text {
   text-transform: none;
-}
-
-.photogallery__content {
-  background-color: rgba($color: #000000, $alpha: 0.1);
 }
 
 .photogallery__like {
@@ -48,6 +60,15 @@
   border: none;
 }
 
+.photogallery__img-container2 {
+  width: 280px;
+  height: 280px;
+}
+
+.photogallery__img2 {
+  max-width: 100%;
+}
+
 .videocontent {
   margin: 0 auto;
   text-align: center;
@@ -58,45 +79,13 @@
 }
 
 .videocontent__text {
-  width: 460px;
+  width: 270px;
   margin: 0 auto;
   padding: 10px 0 66px 0;
   text-align: center;
 }
 
-.visual-object {
-  border: none;
-}
-
-.form__legend {
-  font-weight: bold;
-  font-size: 21px;
-}
-
-.form__opinion {
-  text-transform: none;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.form__attractions {
-  text-transform: none;
-}
-
-.form__textarea {
-  width: 960px;
-  height: 160px;
-  font-weight: bold;
-  font-size: 18px;
-  background-color: #F2F2F2;
-}
-
-.form__submit {
-  width: 480px;
-  height: 58px;
-  background-color: #81B3D2;;
-  border: none;
-  font-weight: bold;
-  font-size: 21px;
-  color: #FFFFFF;
+.videocontent__img {
+  width: 320px;
+  height: 201px;
 }

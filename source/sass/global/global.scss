@@ -1,3 +1,14 @@
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+}
+
 body {
   max-width: 1200px;
   margin: 0 auto;
@@ -5,33 +16,17 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 14px;
   line-height: 26px;
-  color: rgb(0, 0, 0);
+  color: #000000;
   text-transform: uppercase;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  max-width: 100%;
 }
 
 ul {
   margin: 0;
   padding: 0;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.list-reset {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
 }

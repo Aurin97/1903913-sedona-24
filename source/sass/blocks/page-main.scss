@@ -1,19 +1,23 @@
 .mountains__bg {
-  background-image: url("../img/landscapes/mountains.jpg");
+  background-image: url("../img/decor/intro-triangle.svg"),
+                    url("../img/landscapes/mountains.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 518px;
-  height: 518px;
+  background-size: 100% 57px, 100% 389px;
+  background-position: center bottom, center;
+  padding-top: 78px;
+  min-height: 389px;
 }
 
 .mountains__welcome {
   display: block;
   margin: 0 auto;
-  padding: 78px 0 90px 0;
+  width: 282px;
+  height: 214px;
 }
 
 .mountains__place {
   font-weight: bold;
-  width: 500px;
+  width: 300px;
   text-align: center;
   margin: 55px auto;
   font-size: 21px;
@@ -23,6 +27,17 @@
   text-align: center;
   margin: 41px auto;
   font-size: 16px;
+  width: 300px;
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+}
+
+.advantages__item-list {
+  width: 320px;
+  min-height: 211px;
 }
 
 .advantages__item-list--color {
@@ -30,47 +45,14 @@
   background-color: #81B3D2;
 }
 
-.advantages__recommendations {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-
-.advantages__general {
-  display: flex;
-}
-
-.advantages__item-list {
-  width: 400px;
-  height: 256px;
-  margin: 0;
-}
-
-.advantages__title {
-  width: 150px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 47px 0 15px 0;
-  font-size: 21px;
-}
-
 .advantages__item-list--color2 {
   background-color: #EEEEEE;
 }
 
-.advantages__list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-
-.advantages__title-2 {
-  width: 150px;
+.advantages__title {
   text-align: center;
   margin: 0 auto;
-  padding: 28px 0 15px 0;
+  padding: 47px 0 15px 0;
   font-size: 21px;
 }
 
@@ -87,74 +69,94 @@
   line-height: 21px;
 }
 
-.advantages__text {
-  width: 300px;
-  text-align: center;
-  margin: 0 auto;
+.advantages__photo {
+  width: 520px;
+  height: 260px;
 }
 
-.advantages__textual {
-  width: 230px;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 15px;
-  line-height: 21px;
+.advantages__hotel {
+  max-width: 100%;
+}
+
+.advantages__recommendations {
+  margin: 0;
+  padding: 0;
 }
 
 .advantages__recommendations-item--home {
   background-image: url("../img/decor/lodge.svg");
   background-repeat: no-repeat;
   background-size: 75px 72px;
-  width: 75px;
-  height: 72px;
-  margin: 0 auto;
-  text-align: center;
+  background-position-x: center;
 }
 
 .advantages__recommendations-item--food {
   background-image: url("../img/decor/burger.svg");
   background-repeat: no-repeat;
   background-size: 76px 69px;
-  width: 76px;
-  height: 69px;
-  margin: 0 auto;
-  text-align: center;
+  background-position-x: center;
 }
 
 .advantages__recommendations-item--plus {
   background-image: url("../img/decor/gift.svg");
   background-repeat: no-repeat;
   background-size: 63px 75px;
-  width: 63px;
-  height: 75px;
-  margin: 0 auto;
-  text-align: center;
+  background-position-x: center;
 }
 
-.advantages__text-2 {
-  width: 270px;
-  margin: 0 auto;
+.advantages__title-2 {
+  width: 150px;
   text-align: center;
+  margin: 0 auto;
+  padding: 28px 0 15px 0;
+  font-size: 21px;
+}
+
+.advantages__text {
+  width: 240px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.advantages__text2 {
+  width: 230px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.advantages__bridge {
+  max-width: 100%;
+}
+
+.advantages__textual {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 21px;
 }
 
 .search {
-  margin: 0 auto;
+  width: 320px;
+  min-height: 211px;
   text-align: center;
 }
 
 .search__title {
   font-weight: bold;
-  font-size: 30px;
-  line-height: 26px;
+  font-size: 26px;
+}
+
+.search__text {
+  width: 280px;
+  margin: 0 auto;
 }
 
 .search__btn {
   display: block;
   background-color: #81B3D2;
-  width: 458px;
-  height: 58px;
   margin: 0 auto;
-  padding-top: 30px;
+  padding: 15px 32px 18px 32px;
   text-align: center;
   color: #FFFFFF;
   font-weight: bold;
@@ -163,6 +165,6 @@
 }
 
 .map__data {
-  width: 1200px;
+  width: 320px;
   height: 350px;
 }
