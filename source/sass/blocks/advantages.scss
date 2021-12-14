@@ -1,41 +1,9 @@
-.mountains__bg {
-  background-image: url("../img/decor/intro-triangle.svg"), url("../img/landscapes/mountains.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 57px, 100% 389px;
-  background-position: center bottom, center;
-  padding-top: 78px;
-  min-height: 389px;
-}
-
-.mountains__welcome {
-  display: block;
-  margin: 0 auto;
-  width: 282px;
-  height: 214px;
-}
-
-.mountains__place {
-  font-weight: bold;
-  width: 300px;
-  text-align: center;
-  margin: 55px auto;
-  font-size: 21px;
-}
-
-.mountains__reasons {
-  text-align: center;
-  margin: 41px auto;
-  font-size: 16px;
-  width: 300px;
-}
-
 .advantages__list {
   margin: 0;
   padding: 0;
 }
 
 .advantages__item-list {
-  width: 320px;
   min-height: 211px;
 }
 
@@ -69,7 +37,7 @@
 }
 
 .advantages__photo {
-  width: 520px;
+  width: 100%;
   height: 260px;
 }
 
@@ -133,37 +101,4 @@
   margin: 0 auto;
   font-size: 15px;
   line-height: 21px;
-}
-
-.search {
-  width: 320px;
-  min-height: 211px;
-  text-align: center;
-}
-
-.search__title {
-  font-weight: bold;
-  font-size: 26px;
-}
-
-.search__text {
-  width: 280px;
-  margin: 0 auto;
-}
-
-.search__btn {
-  display: block;
-  background-color: #81b3d2;
-  margin: 0 auto;
-  padding: 15px 32px 18px 32px;
-  text-align: center;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 26px;
-}
-
-.map__data {
-  width: 320px;
-  height: 350px;
 }

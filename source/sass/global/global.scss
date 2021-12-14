@@ -6,11 +6,12 @@
 
 html {
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: #e7e5e5;
 }
 
 body {
   max-width: 1200px;
+  min-width: 320px;
   margin: 0 auto;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
@@ -24,6 +25,8 @@ body {
 
 img {
   max-width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 ul {

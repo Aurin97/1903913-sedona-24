@@ -1,0 +1,26 @@
+.photogallery__img-container {
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.photogallery__img {
+  max-width: 100%;
+}
+
+.photogallery__text {
+  text-transform: none;
+}
+
+.photogallery__like {
+  display: block;
+  background-image: url("../img/icons/like-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 23px 21px;
+  padding-left: 20px;
+  border: none;
+}
+
+.photogallery__img2 {
+  max-width: 100%;
+}
