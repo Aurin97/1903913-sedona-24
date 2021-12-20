@@ -1,3 +1,58 @@
+// Мобильная версия
+
 .logo {
-  max-width: 100%;
+  background: url("../img/icons/logotype-mobile.svg") no-repeat;
+  background-size: 102px 84px;
+  position: absolute;
+  z-index: 1;
+  width: 102px;
+  height: 84px;
+}
+
+// Планшетная версия
+
+@media (min-width: 768px) {
+  .logo {
+    background: url("../img/icons/logotype-tablet.svg") no-repeat;
+    background-size: 102px 84px;
+    position: absolute;
+    z-index: 1;
+    width: 102px;
+    height: 84px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .logo {
+    background: url("../img/icons/logotype-tablet.svg") no-repeat;
+    background-size: 102px 84px;
+    position: absolute;
+    z-index: 1;
+    width: 102px;
+    height: 84px;
+  }
+}
+
+// ПК версия
+
+@media (min-width: 1280px) {
+  .logo {
+    background: url("../img/icons/logotype-desktop.svg") no-repeat;
+    background-size: 187px 96px;
+    position: absolute;
+    z-index: 1;
+    width: 187px;
+    height: 96px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .logo {
+    background: url("../img/icons/logotype-desktop.svg") no-repeat;
+    background-size: 187px 96px;
+    position: absolute;
+    z-index: 1;
+    width: 187px;
+    height: 96px;
+  }
 }
