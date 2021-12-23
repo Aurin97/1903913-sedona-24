@@ -1,536 +1,227 @@
-// Мобильная версия
-
 .advantages__list {
   margin: 0;
   padding: 0;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 1280px) {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+.advantages__item {
+  @media (min-width: 768px) {
+    width: 100%;
+  }
 }
 
 .advantages__item-list {
-  min-height: 211px;
+  min-height: 167px;
+  padding: 9px 33px 10px;
+
+  @media (min-width: 768px) {
+    width: 256px;
+    min-height: 256px;
+    padding: 42px 40px 10px;
+  }
+
+  @media (min-width: 1280px) {
+    width: 400px;
+    min-height: 256px;
+    padding: 42px 40px 10px;
+  }
 }
 
 .advantages__item-list--color {
+  min-height: 191px;
+  padding: 21px 20px 10px;
   color: #ffffff;
   background-color: #81b3d2;
+
+  @media (min-width: 768px) {
+    padding: 42px 30px 10px;
+  }
+}
+
+.advantages__item-list--mask {
+  min-height: 211px;
+  padding-top: 38px;
+  background-image: url("../img/decor/intro-triangle.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 768px 37px;
+
+  @media (min-width: 768px) {
+    padding-top: 42px;
+    background: #81b3d2;
+  }
 }
 
 .advantages__item-list--color2 {
   background-color: #eeeeee;
 }
 
+.advantages__item-list--color2:nth-child(2n) {
+  padding-right: 55px;
+  padding-left: 55px;
+}
+
 .advantages__title {
-  text-align: center;
-  margin: 0 auto;
-  padding: 34px 0 15px 0;
-  font-size: 18px;
+  margin-bottom: 8px;
   font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    max-width: 150px;
+    margin: 0 auto 9px;
+    font-size: 21px;
+  }
 }
 
 .advantages__number {
+  margin-top: 0;
   text-align: center;
-  margin: 0 auto 26px auto;
-  font-size: 16px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 22px;
+  }
 }
 
 .advantages__description {
-  width: 350px;
+  line-height: 21px;
   text-align: center;
-  margin: 0 auto;
-  font-size: 16px;
 }
 
 .advantages__photo {
   width: 100%;
   height: 260px;
+
+  @media (min-width: 768px) {
+    height: 256px;
+  }
 }
 
-.advantages__hotel {
-  max-width: 100%;
+.advantages__photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.advantages__general {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 256px 1fr;
+  }
+
+  @media (min-width: 1280px) {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+  }
+}
+
+.advantages__general--second {
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 256px;
+  }
+
+  @media (min-width: 1280px) {
+    grid-template-columns: 1fr 400px;
+  }
+}
+
+.advantages__general--second .advantages__photo {
+  @media (min-width: 768px) {
+    order: -1;
+  }
 }
 
 .advantages__recommendations {
   margin: 0;
-  padding: 0;
+  padding: 25px 0 21px;
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(3, 256px);
+  }
+
+  @media (min-width: 1280px) {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+  }
 }
 
-.advantages__item-list2 {
-  min-height: 180px;
+.advantages__recommendations-item {
+  min-height: 114px;
+  padding: 11px 20px 12px 70px;
+  background-repeat: no-repeat;
+  background-position: 22px 3px;
+
+  @media (min-width: 768px) {
+    padding: 133px 31px 39px;
+    background-position: center 35px;
+  }
+}
+
+.advantages__recommendations-item:last-child {
+  @media (min-width: 768px) {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.advantages__recommendations-item .advantages__title {
+  margin: 0;
+  text-align: left;
+
+  @media (min-width: 768px) {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.advantages__recommendations-item .advantages__description {
+  margin-top: 16px;
+  margin-bottom: 0;
+  text-align: left;
+
+  @media (min-width: 768px) {
+    margin-top: 23px;
+    text-align: center;
+  }
 }
 
 .advantages__recommendations-item--home {
   background-image: url("../img/decor/lodge.svg");
-  background-repeat: no-repeat;
-  background-size: 75px 72px;
-  margin: 26px 9px 0 21px;
+  background-size: 39px 37px;
+
+  @media (min-width: 768px) {
+    background-size: 75px 72px;
+  }
 }
 
 .advantages__recommendations-item--food {
   background-image: url("../img/decor/burger.svg");
-  background-repeat: no-repeat;
-  background-size: 76px 69px;
-  margin: 78px 12px 0 18px;
+  background-size: 40px 35px;
+
+  @media (min-width: 768px) {
+    background-size: 76px 71px;
+  }
 }
 
 .advantages__recommendations-item--plus {
   background-image: url("../img/decor/gift.svg");
-  background-repeat: no-repeat;
-  background-size: 63px 75px;
-  margin: 92px 13px 0 25px;
-}
-
-.advantages__title-2 {
-  margin: 35px 0 20px 0;
-  font-size: 21px;
-}
-
-.advantages__text {
-  width: 240px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.advantages__text-3 {
-  width: 230px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.advantages__bridge {
-  max-width: 100%;
-}
-
-.advantages__textual {
-  width: 300px;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 15px;
-  line-height: 21px;
-}
-
-// Планшетная версия
-
-@media (min-width: 768px) {
-  .advantages__general {
-    display: grid;
-    grid-template-columns: 256px 512px;
-  }
-
-  .advantages__item-list {
-    height: 256px;
-  }
-
-  .advantages__title {
-    width: 200px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 40px 0 15px 0;
-    font-size: 21px;
-    font-weight: bold;
-  }
-
-  .advantages__number {
-    text-align: center;
-    margin: 0 auto 26px auto;
-    font-size: 18px;
-  }
-
-  .advantages__description {
-    width: 250px;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 18px;
-  }
-
-  .advantages__photo {
-    height: 256px;
-  }
-
-  .advantages__hotel {
-    width: 512px;
-  }
-
-  .advantages__recommendations {
-    display: grid;
-    grid-template-columns: 256px 256px 256px;
-  }
-
-  .advantages__item-list2 {
-    height: 310px;
-  }
-
-  .advantages__recommendations-item--home {
-    background-image: url("../img/decor/lodge.svg");
-    background-repeat: no-repeat;
-    background-size: 75px 72px;
-    width: 75px;
-    height: 72px;
-    margin: 60px auto 0 auto;
-  }
-
-  .advantages__recommendations-item--food {
-    background-image: url("../img/decor/gift.svg");
-    background-repeat: no-repeat;
-    background-size: 63px 75px;
-    width: 63px;
-    height: 75px;
-    margin: 63px auto 0 auto;
-  }
-
-  .advantages__recommendations-item--plus {
-    background-image: url("../img/decor/burger.svg");
-    background-repeat: no-repeat;
-    background-size: 76px 69px;
-    width: 76px;
-    height: 69px;
-    margin: 57px auto 0 auto;
-  }
-
-  .advantages__title-2 {
-    display: none;
-  }
-
-  .advantages__title-3 {
-    margin: 66px auto 20px auto;
-    font-size: 21px;
-    text-align: center;
-  }
-
-  .advantages__title-4 {
-    margin: 96px auto 20px auto;
-    font-size: 21px;
-    text-align: center;
-  }
-
-  .advantages__title-5 {
-    margin: 66px auto 20px -20px;
-    font-size: 21px;
-  }
-
-  .advantages__text {
-    display: none;
-  }
-
-  .advantages__text-3 {
-    display: none;
-  }
-}
-
-@media (max-width: 1279px) {
-  .advantages__general {
-    display: grid;
-    grid-template-columns: 256px 512px;
-  }
-
-  .advantages__item-list {
-    height: 256px;
-  }
-
-  .advantages__title {
-    width: 200px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 40px 0 15px 0;
-    font-size: 21px;
-    font-weight: bold;
-  }
-
-  .advantages__number {
-    text-align: center;
-    margin: 0 auto 26px auto;
-    font-size: 18px;
-  }
-
-  .advantages__description {
-    width: 250px;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 18px;
-  }
-
-  .advantages__photo {
-    height: 256px;
-  }
-
-  .advantages__hotel {
-    width: 512px;
-  }
-
-  .advantages__recommendations {
-    display: grid;
-    grid-template-columns: 256px 256px 256px;
-  }
-
-  .advantages__item-list2 {
-    height: 310px;
-  }
-
-  .advantages__recommendations-item--home {
-    background-image: url("../img/decor/lodge.svg");
-    background-repeat: no-repeat;
-    background-size: 75px 72px;
-    width: 75px;
-    height: 72px;
-    margin: 60px auto 0 auto;
-  }
-
-  .advantages__recommendations-item--food {
-    background-image: url("../img/decor/gift.svg");
-    background-repeat: no-repeat;
-    background-size: 63px 75px;
-    width: 63px;
-    height: 75px;
-    margin: 63px auto 0 auto;
-  }
-
-  .advantages__recommendations-item--plus {
-    background-image: url("../img/decor/burger.svg");
-    background-repeat: no-repeat;
-    background-size: 76px 69px;
-    width: 76px;
-    height: 69px;
-    margin: 57px auto 0 auto;
-  }
-
-  .advantages__title-2 {
-    display: none;
-  }
-
-  .advantages__title-3 {
-    margin: 66px auto 20px auto;
-    font-size: 21px;
-    text-align: center;
-  }
-
-  .advantages__title-4 {
-    margin: 96px auto 20px auto;
-    font-size: 21px;
-    text-align: center;
-  }
-
-  .advantages__title-5 {
-    margin: 66px auto 20px -20px;
-    font-size: 21px;
-  }
-
-  .advantages__text {
-    display: none;
-  }
-
-  .advantages__text-3 {
-    display: none;
-  }
-}
-
-// ПК версия
-
-@media (min-width: 1280px) {
-  .advantages__general {
-    display: grid;
-    grid-template-columns: 400px 800px;
-  }
-
-  .advantages__item-list {
-    height: 256px;
-  }
-
-  .advantages__title {
-    width: 200px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 47px 0 15px 0;
-    font-size: 21px;
-    font-weight: bold;
-  }
-
-  .advantages__number {
-    text-align: center;
-    margin: 0 auto 26px auto;
-    font-size: 18px;
-  }
-
-  .advantages__description {
-    width: 350px;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 18px;
-  }
-
-  .advantages__photo {
-    height: 256px;
-  }
-
-  .advantages__hotel {
-    width: 800px;
-  }
-
-  .advantages__recommendations {
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-  }
-
-  .advantages__item-list2 {
-    height: 310px;
-  }
-
-  .advantages__recommendations-item--home {
-    background-image: url("../img/decor/lodge.svg");
-    background-repeat: no-repeat;
-    background-size: 75px 72px;
-    width: 75px;
-    height: 72px;
-    margin: 59px auto 0 auto;
-  }
-
-  .advantages__recommendations-item--food {
-    background-image: url("../img/decor/gift.svg");
-    background-repeat: no-repeat;
-    background-size: 63px 75px;
-    width: 63px;
-    height: 75px;
-    margin: 63px auto 0 auto;
-  }
-
-  .advantages__recommendations-item--plus {
-    background-image: url("../img/decor/burger.svg");
-    background-repeat: no-repeat;
-    background-size: 76px 69px;
-    width: 76px;
-    height: 69px;
-    margin: 57px auto 0 auto;
-  }
-
-  .advantages__title-2 {
-    display: none;
-  }
-
-  .advantages__title-3 {
-    margin: 66px auto 20px auto;
-    font-size: 21px;
-    text-align: center;
-  }
-
-  .advantages__title-4 {
-    margin: 96px auto 20px auto;
-    font-size: 21px;
-    text-align: center;
-  }
-
-  .advantages__title-5 {
-    margin: 66px auto 20px -20px;
-    font-size: 21px;
-  }
-
-  .advantages__text {
-    display: none;
-  }
-
-  .advantages__text-3 {
-    display: none;
-  }
-}
-
-@media (max-width: 1280px) {
-  .advantages__general {
-    display: grid;
-    grid-template-columns: 400px 800px;
-  }
-
-  .advantages__item-list {
-    height: 256px;
-  }
-
-  .advantages__title {
-    width: 200px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 47px 0 15px 0;
-    font-size: 21px;
-    font-weight: bold;
-  }
-
-  .advantages__number {
-    text-align: center;
-    margin: 0 auto 26px auto;
-    font-size: 18px;
-  }
-
-  .advantages__description {
-    width: 350px;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 18px;
-  }
-
-  .advantages__photo {
-    height: 256px;
-  }
-
-  .advantages__hotel {
-    width: 800px;
-  }
-
-  .advantages__recommendations {
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-  }
-
-  .advantages__item-list2 {
-    height: 310px;
-  }
-
-  .advantages__recommendations-item--home {
-    background-image: url("../img/decor/lodge.svg");
-    background-repeat: no-repeat;
-    background-size: 75px 72px;
-    width: 75px;
-    height: 72px;
-    margin: 59px auto 0 auto;
-  }
-
-  .advantages__recommendations-item--food {
-    background-image: url("../img/decor/gift.svg");
-    background-repeat: no-repeat;
-    background-size: 63px 75px;
-    width: 63px;
-    height: 75px;
-    margin: 63px auto 0 auto;
-  }
-
-  .advantages__recommendations-item--plus {
-    background-image: url("../img/decor/burger.svg");
-    background-repeat: no-repeat;
-    background-size: 76px 69px;
-    width: 76px;
-    height: 69px;
-    margin: 57px auto 0 auto;
-  }
-
-  .advantages__title-2 {
-    display: none;
-  }
-
-  .advantages__title-3 {
-    margin: 66px auto 20px auto;
-    font-size: 21px;
-    text-align: center;
-  }
-
-  .advantages__title-4 {
-    margin: 96px auto 20px auto;
-    font-size: 21px;
-    text-align: center;
-  }
-
-  .advantages__title-5 {
-    margin: 66px auto 20px -20px;
-    font-size: 21px;
-  }
-
-  .advantages__text {
-    display: none;
-  }
-
-  .advantages__text-3 {
-    display: none;
+  background-size: 32px 38px;
+
+  @media (min-width: 768px) {
+    order: 1;
+    background-size: 64px 72px;
   }
 }

@@ -11,26 +11,30 @@
   <body class="page__body">
     <header class="page-header">
       <nav class="navigation">
-        <ul class="navigation__list list-reset">
-          <li class="navigation__item">
-            <a class="navigation__link link" href="index.html">Главная</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link navigation__link--active link">Фото и видео</a>
-          </li>
-        </ul>
-        <a class="navigation__logo link" href="index.html">
-          <img class="logo" src="img/icons/sedona.svg" width="187" height="96" alt="Логотип">
-        </a>
-        <ul class="navigation__list list-reset">
-          <li class="navigation__item">
-            <a class="navigation__link link" href="form.html">Форма отзыва</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link link" href="https://htmlacademy.ru/">Htmlacademy</a>
-          </li>
-        </ul>
-        <button class="navigation__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <div class="navigation__wrapper">
+          <div class="navigation__container">
+            <ul class="navigation__list list-reset">
+              <li class="navigation__item">
+                <a class="navigation__link">Главная</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link link navigation__link--active link" href="catalog.html">Фото и видео</a>
+              </li>
+            </ul>
+            <ul class="navigation__list list-reset">
+              <li class="navigation__item">
+                <a class="navigation__link link" href="form.html">Форма отзыва</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link link" href="https://htmlacademy.ru/">Htmlacademy</a>
+              </li>
+            </ul>
+          </div>
+          <a class="navigation__logo logo link" href="index.html"></a>
+        </div>
+        <button class="navigation__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
       </nav>
     </header>
     <main class="catalog-main">
