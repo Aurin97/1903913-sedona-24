@@ -87,22 +87,42 @@
   }
 }
 
+.mountains__content-2 {
+  width: 306px;
+  margin: 0 auto;
+  padding: 34px 0 0 0;
+
+  @media (min-width: 768px) {
+    width: 500px;
+    padding: 54px 0 51px 0;
+  }
+}
+
+.mountains__content-3 {
+  width: 290px;
+  margin: 0 auto;
+  padding: 34px 0 20px 0;
+
+  @media (min-width: 768px) {
+    width: 500px;
+    padding: 54px 0 51px 0;
+  }
+}
+
 .mountains__place {
   font-weight: bold;
   font-size: 18px;
   text-align: center;
 
   @media (min-width: 768px) {
-    font-size: 21px;
+    font-size: 30px;
   }
 }
 
 .mountains__reasons {
-  margin-top: 30px;
-  font-size: 18px;
   text-align: center;
 
   @media (min-width: 768px) {
-    font-size: 21px;
+    font-size: 16px;
   }
 }
