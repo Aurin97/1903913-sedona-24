@@ -104,6 +104,9 @@
   }
 
   @media (min-width: 1280px) {
+    background-image: url("../img/icons/like-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 23px 21px;
     background-color: rgba($color: #000000, $alpha: 0.3);
     color: #ffffff;
   }

@@ -11,7 +11,7 @@
     min-height: 519px;
     padding-top: 76px;
     background-image: url("../img/decor/intro-triangle-tablet.svg"), url("../img/landscapes/back-tablet.jpg");
-    background-size: 1200px 57px, 1200px 518px;
+    background-size: 768px 57px, 768px 518px;
   }
 
   @media (min-width: 1280px) {
@@ -32,17 +32,18 @@
   background-size: cover, cover;
 
   @media (min-width: 768px) {
-    min-height: 519px;
+    min-height: 419px;
     padding-top: 95px;
     background-image: url("../img/decor/intro-triangle-tablet.svg"), url("../img/landscapes/back-tablet-2.jpg");
-    background-size: 1200px 57px, 1200px 518px;
+    background-size: 768px 57px, 768px 418px;
+    background-position: center bottom, center;
   }
 
   @media (min-width: 1280px) {
-    min-height: 519px;
+    min-height: 419px;
     padding-top: 101px;
     background-image: url("../img/decor/intro-triangle-desktop.svg"), url("../img/landscapes/back-desktop-2.jpg");
-    background-size: 1200px 57px, 1200px 518px;
+    background-size: 1200px 57px, 1200px 418px;
   }
 }
 
@@ -74,13 +75,13 @@
 
 .mountains__content {
   padding: 15px 28px 14px;
-  background-image: url("../img/decor/intro-triangle.svg");
+  background-image: url("../img/decor/intro-triangle2.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
 
   @media (min-width: 768px) {
-    max-width: 545px;
+    max-width: 625px;
     margin: 0 auto;
     padding-top: 22px;
     padding-bottom: 40px;
@@ -115,7 +116,7 @@
   text-align: center;
 
   @media (min-width: 768px) {
-    font-size: 30px;
+    font-size: 21px;
   }
 }
 
