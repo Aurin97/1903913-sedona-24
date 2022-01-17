@@ -52,70 +52,88 @@
         <form class="form" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="form__fieldset form__fieldset-3 visual-object">
             <h2 class="form__heading">Представьтесь:</h2>
-            <label class="form__label2" for="text-name">Имя<sup>*</sup>:&nbsp;<input class="form__input--text" type="text" name="text-name" id="text-name" placeholder="Пётр"></label>
-            <label class="form__label2" for="text-surname">Фамилия<sup>*</sup>:&nbsp;<input class="form__input--text2" type="text" name="text-surname" id="text-surname" placeholder="Иванов"></label>
-            <label class="form__label2" for="text-middle-name">Отчество<sup>*</sup>:&nbsp;<input class="form__input--text2" type="text" name="text-middle-name" id="text-middle-name" placeholder="Александрович"></label>
-          </fieldset>
+            <label class="form__label2" for="text-name">Имя<sup>*</sup>:
+              <input class="form__input-text" type="text" name="text-name" id="text-name" placeholder="Петр">
+            </label>
+            <label class="form__label2" for="text-surname">Фамилия<sup>*</sup>:
+               <input class="form__input-text" type="text" name="text-surname" id="text-surname" placeholder="Иванов">
+            </label>
+            <label class="form__label2" for="text-middle-name">Отчество<sup>*</sup>:
+               <input class="form__input-text" type="text" name="text-middle-name" id="text-middle-name" placeholder="Александрович">
+            </label>
+         </fieldset>
           <fieldset class="form__fieldset visual-object2">
             <h2 class="form__legend">Контактная информация:</h2>
-            <label class="form__label-text" for="text-telephone">Контактный телефон<sup>*</sup>:<input class="form__input--infa" type="text" name="text-telephone" id="text-telephone" placeholder="Введите телефон"><span class="form__icon-tel"></span></label>
-            <label class="form__label-text" for="text-main">Электронная почта<sup>*</sup>:<input class="form__input--infa" type="text" name="text-main" id="text-main" placeholder="Введите e-mail"><span class="form__icon-email"></span></label>
+            <div class="form__contacts-container">
+               <label class="form__label-text" for="text-telephone">Контактный телефон<sup>*</sup>:</label>
+              <div class="form__input-container">
+                 <input class="form__input-text" type="text" name="text-telephone" id="text-telephone" placeholder="Введите телефон">
+                 <span class="form__icon-tel"></span>
+              </div>
+            </div>
+            <div class="form__contacts-container">
+               <label class="form__label-text" for="text-main">Электронная почта<sup>*</sup>:</label>
+               <div class="form__input-container">
+                  <input class="form__input-text" type="text" name="text-main" id="text-main" placeholder="Введите e-mail">
+                <span class="form__icon-email"></span>
+              </div>
+            </div>
           </fieldset>
           <fieldset class="form__fieldset form__fieldset-2 visual-object">
             <h2 class="form__legend-4">Ваше общее впечатление:</h2>
             <ul class="form__list list-reset">
               <li class="form__item">
-                <label class="form__label" for="impressions1">
-                  <input class="form__input" type="radio" name="impressions1" id="impressions1" value="positive" checked>
-                  <span class="form__mark"></span>
-                  <span class="form__opinion">Скорее положительное</span>
-                </label>
-              </li>
-              <li class="form__item">
-                <label class="form__label" for="impressions2">
-                  <input class="form__input" type="radio" name="impressions1" id="impressions2" value="negative">
-                  <span class="form__mark"></span>
-                  <span class="form__opinion">Скорее отрицательное</span>
-                </label>
-              </li>
-              <li class="form__item">
-                <label class="form__label" for="impressions3">
-                  <input class="form__input" type="radio" name="impressions1" id="impressions3" value="difficulty">
-                  <span class="form__mark"></span>
-                  <span class="form__opinion">Затрудняюсь ответить</span>
-                </label>
-              </li>
-            </ul>
+               <label class="form__label" for="impressions1">
+                 <input class="form__input visually-hidden" type="radio" name="impressions1" id="impressions1" value="positive" checked="">
+                 <span class="form__mark"></span>
+                 <span class="form__opinion">Скорее положительное</span>
+               </label>
+             </li>
+             <li class="form__item">
+               <label class="form__label" for="impressions2">
+                 <input class="form__input visually-hidden" type="radio" name="impressions1" id="impressions2" value="negative">
+                 <span class="form__mark"></span>
+                 <span class="form__opinion">Скорее отрицательное</span>
+               </label>
+             </li>
+             <li class="form__item">
+                 <label class="form__label" for="impressions3">
+                   <input class="form__input visually-hidden" type="radio" name="impressions1" id="impressions3" value="difficulty">
+                   <span class="form__mark"></span>
+                   <span class="form__opinion">Затрудняюсь ответить</span>
+                 </label>
+               </li>
+             </ul>
           </fieldset>
           <fieldset class="form__fieldset visual-object">
             <h2 class="form__legend2">Посещённые достопримечательности:</h2>
             <ul class="form__list form__list-2 list-reset">
               <li class="form__item">
-                <label class="form__label-3" for="choice1">
-                  <input class="form__attractions-input" type="checkbox" name="choice1" id="choice1" checked>
+                <label class="form__label" for="choice1">
+                  <input class="form__attractions-input visually-hidden" type="checkbox" name="choice1" id="choice1" checked="">
                   <span class="form__attractions-mark"></span>
-                  <span class="form__attractions">Мост Дьявола</span>
+                    <span class="form__opinion">Мост Дьявола</span>
                 </label>
               </li>
               <li class="form__item">
-                <label class="form__label-3" for="choice2">
-                  <input class="form__attractions-input" type="checkbox" name="choice2" id="choice2" checked>
+                <label class="form__label" for="choice2">
+                  <input class="form__attractions-input visually-hidden" type="checkbox" name="choice2" id="choice2" checked="">
                   <span class="form__attractions-mark"></span>
-                  <span class="form__attractions">Гора-Колокол</span>
+                  <span class="form__opinion">Гора-Колокол</span>
                 </label>
               </li>
               <li class="form__item">
-                <label class="form__label-3" for="choice3">
-                  <input class="form__attractions-input" type="checkbox" name="choice3" id="choice3" checked>
+                <label class="form__label" for="choice3">
+                  <input class="form__attractions-input visually-hidden" type="checkbox" name="choice3" id="choice3" checked="">
                   <span class="form__attractions-mark"></span>
-                  <span class="form__attractions">Слайд-парк</span>
+                  <span class="form__opinion">Слайд-парк</span>
                 </label>
               </li>
               <li class="form__item">
-                <label class="form__label-3" for="choice4">
-                  <input class="form__attractions-input" type="checkbox" name="choice4" id="choice4">
+                <label class="form__label" for="choice4">
+                  <input class="form__attractions-input visually-hidden" type="checkbox" name="choice4" id="choice4">
                   <span class="form__attractions-mark"></span>
-                  <span class="form__attractions">Красные скалы</span>
+                  <span class="form__opinion">Красные скалы</span>
                 </label>
               </li>
             </ul>

@@ -11,14 +11,12 @@
     min-height: 519px;
     padding-top: 76px;
     background-image: url("../img/decor/intro-triangle-tablet.svg"), url("../img/landscapes/back-tablet.jpg");
-    background-size: 768px 57px, 768px 518px;
   }
 
   @media (min-width: 1280px) {
     min-height: 519px;
     padding-top: 76px;
     background-image: url("../img/decor/intro-triangle-desktop.svg"), url("../img/landscapes/back-desktop.jpg");
-    background-size: 1200px 57px, 1200px 518px;
   }
 }
 

@@ -36,7 +36,7 @@
 
 .photogallery__img-container {
   width: 100%;
-  height: 100%;
+  height: 280px;
 
   @media (min-width: 768px) {
     height: 267px;
@@ -45,13 +45,8 @@
 
 .photogallery__img {
   display: block;
-  width: 280px;
-  height: 280px;
-
-  @media (min-width: 768px) {
-    width: 100%;
-    height: 100%;
-  }
+  width: 100%;
+  height: 100%;
 }
 
 .photogallery__content {

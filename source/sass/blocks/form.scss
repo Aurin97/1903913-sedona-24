@@ -5,6 +5,10 @@
   }
 }
 
+.form__item {
+  margin-bottom: 17px;
+}
+
 .form__fieldset {
   padding-bottom: 10px;
 
@@ -16,9 +20,8 @@
 .form__fieldset-2 {
   @media (min-width: 768px) {
     display: grid;
+    grid-row: 1/2;
     grid-column: 1/2;
-    order: -1;
-    margin-left: 30px;
   }
 
   @media (min-width: 1280px) {
@@ -58,16 +61,13 @@
   }
 }
 
-.form__label {
-  @media (min-width: 768px) {
-    display: block;
-    padding-bottom: 20px;
-  }
-}
-
 .form__label2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
   @media (min-width: 768px) {
-    margin-left: 20px;
+    margin: 0 0 20px 10px;
   }
 }
 
@@ -89,12 +89,16 @@
   }
 }
 
-.form__input--text {
-  margin: 0 0 20px 10px;
-  padding-left: 22px;
+.form__input-text {
+  font-family: "PT Sans", sans-serif;
+  margin-left: 10px;
+  padding: 14px 22px 9px;
   background-color: #f2f2f2;
   border: none;
-  width: 230px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  width: 100%;
   height: 58px;
 
   @media (min-width: 1280px) {
@@ -102,33 +106,13 @@
   }
 }
 
-.form__input--text::placeholder {
-  font-size: 18px;
-  font-weight: bold;
-  color: #000000;
-}
-
-.form__input--text2 {
-  margin: 0 0 20px 10px;
-  padding-left: 22px;
-  background-color: #f2f2f2;
-  border: none;
-  width: 192px;
-  height: 58px;
-
-  @media (min-width: 1280px) {
-    width: 312px;
-  }
-}
-
-.form__input--text2::placeholder {
+.form__input-text::placeholder {
   font-size: 18px;
   font-weight: bold;
   color: #000000;
 }
 
 .form__label-text {
-  position: relative;
   margin-left: 30px;
 
   @media (min-width: 768px) {
@@ -161,60 +145,29 @@
   color: #000000;
 }
 
-.form__icon-tel {
+.form__icon {
   position: absolute;
   right: 0;
-  top: 28px;
+  top: 0;
   width: 58px;
   height: 58px;
   background-color: #e6e6e6;
-  background-image: url("../img/icons/phone.svg");
   background-repeat: no-repeat;
   background-position: center;
-
-  @media (min-width: 768px) {
-    top: 32px;
-  }
-
-  @media (min-width: 1280px) {
-    top: -19px;
-  }
 }
 
-.form__icon-email {
-  position: absolute;
-  right: 0;
-  top: 28px;
-  width: 58px;
-  height: 58px;
-  background-color: #e6e6e6;
+.form__icon--email {
   background-image: url("../img/icons/mail.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-
-  @media (min-width: 768px) {
-    top: 32px;
-  }
-
-  @media (min-width: 1280px) {
-    top: -19px;
-  }
 }
 
-.form__input {
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  margin-bottom: 42px;
+.form__icon--tel {
+  background-image: url("../img/icons/phone.svg");
 }
 
 .form__input:checked + .form__mark {
   background-image: url("../img/icons/circle.svg");
   background-repeat: no-repeat;
   background-position: center, center;
-  background-color: #f2f2f2;
-  border-radius: 25px;
 }
 
 .form__input:focus + .form__mark {
@@ -232,17 +185,12 @@
 
 .form__mark {
   position: absolute;
-  width: 46px;
-  height: 46px;
+  top: 0;
+  left: 0;
+  width: 55px;
+  height: 55px;
   background-color: #f2f2f2;
-  border-radius: 25px;
-  margin: 5px 0 20px 0;
-
-  @media (min-width: 768px) {
-    width: 46px;
-    height: 46px;
-    margin: 5px 0 0 0;
-  }
+  border-radius: 50%;
 }
 
 .form__legend2 {
@@ -294,6 +242,13 @@
   }
 }
 
+.form__list {
+  @media (min-width: 768px) {
+    padding-top: 46px;
+    padding-left: 10px;
+  }
+}
+
 .form__list-2 {
   @media (min-width: 768px) {
     display: grid;
@@ -307,28 +262,20 @@
   }
 }
 
+.form__list-2 .form__item {
+  margin-bottom: 28px;
+}
+
 .form__opinion {
   text-transform: none;
   font-weight: bold;
   font-size: 18px;
-  position: absolute;
-  padding: 15px 0 0 66px;
-}
-
-.form__attractions-input {
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  margin-bottom: 42px;
 }
 
 .form__attractions-input:checked + .form__attractions-mark {
   background-image: url("../img/icons/tick.svg");
   background-repeat: no-repeat;
   background-position: center, center;
-  background-color: #f2f2f2;
-  border-radius: 5px;
 }
 
 .form__attractions-input:focus + .form__attractions-mark {
@@ -346,17 +293,12 @@
 
 .form__attractions-mark {
   position: absolute;
-  width: 46px;
-  height: 46px;
+  top: 0;
+  left: 0;
+  width: 55px;
+  height: 55px;
   background-color: #f2f2f2;
   border-radius: 5px;
-  margin: 5px 0 20px 0;
-
-  @media (min-width: 768px) {
-    width: 46px;
-    height: 46px;
-    margin: 5px 0 0 -40px;
-  }
 }
 
 .form__attractions {
