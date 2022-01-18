@@ -11,6 +11,7 @@
     min-height: 519px;
     padding-top: 76px;
     background-image: url("../img/decor/intro-triangle-tablet.svg"), url("../img/landscapes/back-tablet.jpg");
+    background-size: 100%;
   }
 
   @media (min-width: 1280px) {
@@ -120,8 +121,4 @@
 
 .mountains__reasons {
   text-align: center;
-
-  @media (min-width: 768px) {
-    font-size: 16px;
-  }
 }

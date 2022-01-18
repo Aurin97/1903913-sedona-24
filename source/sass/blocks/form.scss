@@ -61,6 +61,12 @@
   }
 }
 
+.form__label {
+  display: block;
+  position: relative;
+  padding: 15px 10px 10px 78px;
+}
+
 .form__label2 {
   display: flex;
   align-items: center;
@@ -91,7 +97,7 @@
 
 .form__input-text {
   font-family: "PT Sans", sans-serif;
-  margin-left: 10px;
+  margin-left: 18px;
   padding: 14px 22px 9px;
   background-color: #f2f2f2;
   border: none;
@@ -145,9 +151,13 @@
   color: #000000;
 }
 
+.form__input-container {
+  position: absolute;
+}
+
 .form__icon {
   position: absolute;
-  right: 0;
+  right: -20px;
   top: 0;
   width: 58px;
   height: 58px;

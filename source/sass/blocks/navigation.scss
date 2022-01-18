@@ -29,7 +29,6 @@
   background-image: url("../img/icons/icon-cross.svg");
   background-repeat: no-repeat;
   background-size: 23px 23px;
-  background-color: #81b3d2;
 
   @media (min-width: 768px) {
     display: none;
@@ -80,10 +79,10 @@
   background-repeat: no-repeat;
   background-size: 23px 23px;
   border: none;
+  background-color: transparent;
 
   @media (min-width: 768px) {
     display: none;
-    background-color: transparent;
   }
 }
 
