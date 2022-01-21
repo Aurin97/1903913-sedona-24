@@ -85,14 +85,15 @@
 
 .photogallery__like {
   display: block;
-  height: 21px;
+  font-family: "PT Sans", sans-serif;
   background-color: #ffffff;
   background-image: url("../img/icons/like-icon2.svg");
   background-repeat: no-repeat;
   background-size: 23px 21px;
   margin-top: 10px;
-  padding: 7px 0 0 30px;
+  padding: 3px 0 0 30px;
   border: none;
+  line-height: 24px;
 
   @media (min-width: 768px) {
     background-color: #f2f2f2;
@@ -102,7 +103,7 @@
     background-image: url("../img/icons/like-icon.svg");
     background-repeat: no-repeat;
     background-size: 23px 21px;
-    background-color: rgba($color: #000000, $alpha: 0.3);
+    background-color: rgba($color: #000000, $alpha: 0);
     color: #ffffff;
   }
 }
