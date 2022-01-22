@@ -111,6 +111,18 @@
   }
 }
 
+.navigation__gallery {
+  @media (min-width: 1280px) {
+    margin: 0 0 0 -10px;
+  }
+}
+
+.navigation__form {
+  @media (min-width: 768px) {
+    margin: 0 0 0 8px;
+  }
+}
+
 .navigation__link--active {
   color: #766357;
 }
