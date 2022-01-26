@@ -63,9 +63,14 @@
 }
 
 .form__label {
+  padding-left: 113px;
+  min-height: 57px;
   display: block;
   position: relative;
-  padding: 25px 10px 10px 78px;
+
+  @media (min-width: 1280px) {
+    padding-left: 100px;
+  }
 }
 
 .form__label2 {
@@ -75,14 +80,13 @@
 
   @media (min-width: 768px) {
     position: relative;
-    margin: 0 0 20px 31px;
-    top: -5px;
+    margin: 0 0 20px 41px;
   }
 
   @media (min-width: 1280px) {
     position: relative;
-    margin: 0 0 20px 31px;
-    top: -8px;
+    padding: 0 0 0 0;
+    text-align: left;
   }
 }
 
@@ -141,7 +145,7 @@
 
   @media (min-width: 768px) {
     position: relative;
-    left: -3px;
+    padding: 0 0 0 20px;
   }
 
   @media (min-width: 1280px) {
@@ -223,7 +227,6 @@
   @media (min-width: 768px) {
     margin: 0 0 0 82px;
     position: relative;
-    left: -12px;
   }
 
   @media (min-width: 1280px) {
@@ -386,21 +389,19 @@
   text-align: center;
 
   @media (min-width: 768px) {
+    padding: 0 0 0 6px;
+    margin: 46px 0 57px 0;
     font-size: 21px;
-    margin: 26px 0 30px 0;
-    position: relative;
-    right: -4px;
   }
 
   @media (min-width: 1280px) {
     font-size: 21px;
-    margin: 0 14px 30px 0;
+    margin: 20px 14px 30px 0;
   }
 }
 
 .form__list {
   @media (min-width: 768px) {
-    padding-top: 10px;
     padding-left: 10px;
   }
 }
@@ -423,12 +424,14 @@
 }
 
 .form__opinion {
+  display: block;
+  padding-top: 16px;
   text-transform: none;
   font-weight: bold;
   font-size: 18px;
 
-  @media (min-width: 768px) {
-
+  @media (min-width: 1280px) {
+    padding: 20px 0 0 0;
   }
 }
 

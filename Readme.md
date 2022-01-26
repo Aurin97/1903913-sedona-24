@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Виктор Лелюхин](https://up.htmlacademy.ru/adaptive/24/user/1903913).
-* Наставник: [Дмитрий Дроганов](https://htmlacademy.ru/profile/dmdragon).
+* Наставник: [Владислав Донченко](https://htmlacademy.ru/profile/id608811).
 
 ---
 
