@@ -11,7 +11,6 @@
 
 .form__fieldset {
   overflow: hidden;
-  padding-bottom: 10px;
 
   @media (min-width: 768px) {
     grid-column: 1/-1;
@@ -31,6 +30,24 @@
 }
 
 .form__fieldset-3 {
+  margin-top: 0;
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-column: 2/-1;
+    justify-items: end;
+    margin-right: 40px;
+    border-left: 2px solid #dbdbdb;
+  }
+
+  @media (min-width: 1280px) {
+    margin-right: 80px;
+  }
+}
+
+.form__fieldset-4 {
+  margin-top: 10px;
+
   @media (min-width: 768px) {
     display: grid;
     grid-column: 2/-1;
@@ -48,7 +65,7 @@
   font-weight: bold;
   font-size: 18px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px 20px 20px 20px;
   text-align: center;
 
   @media (min-width: 768px) {
@@ -63,7 +80,7 @@
 }
 
 .form__label {
-  padding-left: 113px;
+  padding-left: 82px;
   min-height: 57px;
   display: block;
   position: relative;
@@ -76,7 +93,7 @@
 .form__label2 {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 1px 0 20px 7px;
 
   @media (min-width: 768px) {
     position: relative;
@@ -100,7 +117,7 @@
   font-weight: bold;
   font-size: 18px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px 20px 15px 20px;
   text-align: center;
 
   @media (min-width: 768px) {
@@ -134,7 +151,7 @@
 .form__input-text {
   font-family: "PT Sans", sans-serif;
   margin-left: 18px;
-  padding: 14px 22px 9px;
+  padding: 10px 17px 9px;
   background-color: #f2f2f2;
   border: none;
   font-size: 18px;
@@ -161,15 +178,15 @@
 
 .form__input-text2 {
   font-family: "PT Sans", sans-serif;
-  padding: 14px 22px 9px;
+  padding: 17px 28px 9px;
   background-color: #f2f2f2;
   border: none;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
-  width: 100%;
+  width: 290px;
   height: 58px;
-  margin-top: 6px;
+  margin-top: 10px;
 
   @media (min-width: 768px) {
     width: 648px;
@@ -190,15 +207,15 @@
 
 .form__input-text3 {
   font-family: "PT Sans", sans-serif;
-  padding: 14px 22px 9px;
+  padding: 12px 28px 9px;
   background-color: #f2f2f2;
   border: none;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
-  width: 100%;
+  width: 280px;
   height: 58px;
-  margin-top: 6px;
+  margin-top: 9px;
 
   @media (min-width: 768px) {
     width: 648px;
@@ -281,6 +298,8 @@
 
 .form__icon--email {
   background-image: url("../img/icons/mail.svg");
+  top: 9px;
+  right: 8px;
 
   @media (min-width: 768px) {
     right: 50px;
@@ -295,6 +314,8 @@
 
 .form__icon--tel {
   background-image: url("../img/icons/phone.svg");
+  top: 10px;
+  right: 5px;
 
   @media (min-width: 768px) {
     top: 9px;
@@ -334,7 +355,7 @@
   height: 55px;
   background-color: #f2f2f2;
   border-radius: 50%;
-  margin-top: 10px;
+  margin-left: 10px;
 
   @media (min-width: 768px) {
     margin: 0 0 0 40px;
@@ -350,7 +371,7 @@
   font-size: 18px;
   width: 280px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   text-align: center;
 
   @media (min-width: 768px) {
@@ -372,7 +393,7 @@
   font-weight: bold;
   font-size: 18px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 20px 13px 20px;
   text-align: center;
 
   @media (min-width: 768px) {
@@ -385,7 +406,7 @@
   font-weight: bold;
   font-size: 18px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 15px 20px 20px 20px;
   text-align: center;
 
   @media (min-width: 768px) {
@@ -441,6 +462,7 @@
   font-weight: bold;
   font-size: 18px;
   margin-top: -10px;
+  padding: 28px 0 0 5px;
 
   @media (min-width: 768px) {
     position: relative;
@@ -475,6 +497,7 @@
   height: 55px;
   background-color: #f2f2f2;
   border-radius: 5px;
+  margin: 10px 0 0 7px;
 
   @media (min-width: 768px) {
     top: -34px;
@@ -507,7 +530,8 @@
 }
 
 .form__label-text3 {
-  margin: 0 0 0 30px;
+  display: block;
+  margin: 10px 0 0 30px;
 
   @media (min-width: 768px) {
     display: block;
@@ -528,7 +552,7 @@
   height: 160px;
   background-color: #f2f2f2;
   border: none;
-  margin: 0 auto 51px auto;
+  margin: 0 auto 45px auto;
   resize: none;
 
   @media (min-width: 768px) {
@@ -561,9 +585,9 @@
   background-color: #81b3d2;
   border: none;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 18px;
   color: #ffffff;
-  padding: 18px 33px 14px 33px;
+  padding: 18px 46px 14px 46px;
   margin: 0 auto 77px auto;
   text-transform: uppercase;
 

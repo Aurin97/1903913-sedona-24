@@ -1,7 +1,7 @@
 .mountains__bg {
-  min-height: 389px;
+  min-height: 380px;
   margin: 0 auto;
-  padding-top: 90px;
+  padding-top: 84px;
   background-image: url("../img/decor/intro-triangle.svg"), url("../img/landscapes/back-mobile.jpg");
   background-repeat: no-repeat;
   background-position: center bottom, center;
@@ -22,7 +22,7 @@
 }
 
 .mountains__bg-2 {
-  min-height: 214px;
+  min-height: 158px;
   margin: 0 auto;
   padding-top: 52px;
   background-image: url("../img/decor/intro-triangle.svg"), url("../img/landscapes/back-mobile-2.jpg");
@@ -57,6 +57,17 @@
   }
 }
 
+.mountains__welcome-2 {
+  display: block;
+  width: 230px;
+  height: auto;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    width: 461px;
+  }
+}
+
 .mountains__sedona {
   display: block;
   width: 229px;
@@ -73,7 +84,7 @@
 }
 
 .mountains__content {
-  padding: 15px 28px 14px;
+  padding: 20px 28px 14px;
   background-image: url("../img/decor/intro-triangle2.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -90,7 +101,7 @@
 .mountains__content-2 {
   width: 306px;
   margin: 0 auto;
-  padding: 34px 0 0 0;
+  padding: 24px 0 0 0;
 
   @media (min-width: 768px) {
     width: 440px;
@@ -105,7 +116,7 @@
 .mountains__content-3 {
   width: 290px;
   margin: 0 auto;
-  padding: 34px 0 20px 0;
+  padding: 20px 0 20px 0;
 
   @media (min-width: 768px) {
     width: 500px;
@@ -115,8 +126,20 @@
 
 .mountains__place {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 18px;
   text-align: center;
+  margin-bottom: 30px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 30px;
+  }
+}
+
+.mountains__place-2 {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 25px;
 
   @media (min-width: 768px) {
     margin-bottom: 30px;
