@@ -4,12 +4,12 @@
 }
 
 .videocontent__title {
-  padding-top: 34px;
+  padding-top: 16px;
   font-size: 18px;
   border-top: 1px solid #e5e5e5;
 
   @media (min-width: 768px) {
-    padding-top: 59px;
+    padding-top: 30px;
     font-size: 30px;
     border-top: none;
   }
@@ -29,6 +29,7 @@
   @media (min-width: 768px) {
     width: 450px;
     line-height: 24px;
+    padding: 12px 0 80px 0;
   }
 }
 

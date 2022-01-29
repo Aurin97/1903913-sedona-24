@@ -53,7 +53,7 @@
 
 .advantages__item-list--mask {
   min-height: 211px;
-  padding-top: 38px;
+  padding: 54px 20px 40px 20px;
   background-image: url("../img/decor/intro-triangle2.svg");
   background-repeat: no-repeat;
   background-position: center top;
@@ -72,6 +72,10 @@
 .advantages__item-list--color2:nth-child(2n) {
   padding-right: 55px;
   padding-left: 55px;
+}
+
+.advantages__container {
+  border-bottom: 1px solid #d6d6d6;
 }
 
 .advantages__title {
@@ -99,6 +103,15 @@
 .advantages__description {
   line-height: 21px;
   text-align: center;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.advantages__description-2 {
+  line-height: 21px;
+  text-align: center;
+  width: 250px;
+  margin: 0 auto;
 }
 
 .advantages__photo {
@@ -188,6 +201,17 @@
 }
 
 .advantages__recommendations-item .advantages__description {
+  margin-top: 16px;
+  margin-bottom: 0;
+  text-align: left;
+
+  @media (min-width: 768px) {
+    margin-top: 23px;
+    text-align: center;
+  }
+}
+
+.advantages__recommendations-item .advantages__description-2 {
   margin-top: 16px;
   margin-bottom: 0;
   text-align: left;

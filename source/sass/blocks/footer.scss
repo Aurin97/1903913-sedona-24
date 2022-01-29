@@ -20,7 +20,7 @@
   @media (min-width: 768px) {
     display: grid;
     align-items: center;
-    padding-top: 25px;
+    padding-top: 35px;
     padding-bottom: 32px;
     grid-template-columns: repeat(3, 1fr);
   }
@@ -90,6 +90,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer__text {
+  @media (min-width: 768px) {
+    margin: 0 0 0 10px;
+  }
 }
 
 .footer__link-html {

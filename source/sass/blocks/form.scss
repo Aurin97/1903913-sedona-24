@@ -22,6 +22,8 @@
     display: grid;
     grid-row: 1/2;
     grid-column: 1/2;
+    margin: 0;
+    padding: 0;
   }
 
   @media (min-width: 1280px) {
@@ -129,23 +131,29 @@
 
 .form__legend::before,
 .form__legend::after {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  width: 123px;
-  height: 1px;
-  background-color: #dbdbdb;
-  position: relative;
+  @media (min-width: 768px) {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 123px;
+    height: 1px;
+    background-color: #dbdbdb;
+    position: relative;
+  }
 }
 
 .form__legend::before {
-  margin-left: -100%;
-  left: -14px;
+  @media (min-width: 768px) {
+    margin-left: -100%;
+    left: -14px;
+  }
 }
 
 .form__legend::after {
-  margin-right: -100%;
-  right: -14px;
+  @media (min-width: 768px) {
+    margin-right: -100%;
+    right: -14px;
+  }
 }
 
 .form__input-text {
@@ -355,7 +363,7 @@
   height: 55px;
   background-color: #f2f2f2;
   border-radius: 50%;
-  margin-left: 10px;
+  margin: 5px 0 0 8px;
 
   @media (min-width: 768px) {
     margin: 0 0 0 40px;
@@ -411,8 +419,9 @@
 
   @media (min-width: 768px) {
     padding: 0 0 0 6px;
-    margin: 46px 0 57px 0;
+    margin: 0;
     font-size: 21px;
+    min-height: 50px;
   }
 
   @media (min-width: 1280px) {
@@ -569,7 +578,7 @@
   font-weight: bold;
   font-size: 18px;
   color: #000000;
-  padding: 13px 0 0 21px;
+  padding: 15px 0 0 17px;
 }
 
 .form__data {
