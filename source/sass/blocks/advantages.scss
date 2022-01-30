@@ -69,17 +69,13 @@
   background-color: #eeeeee;
 }
 
-.advantages__item-list--color2:nth-child(2n) {
-  padding-right: 55px;
-  padding-left: 55px;
-}
-
 .advantages__container {
   border-bottom: 1px solid #d6d6d6;
-  padding: 24px 0;
+  padding: 26px 20px 24px 20px;
 }
 
 .advantages__title {
+  margin-top: 0;
   margin-bottom: 8px;
   font-weight: bold;
   font-size: 18px;
@@ -104,8 +100,7 @@
 .advantages__description {
   line-height: 21px;
   text-align: center;
-  width: 280px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .advantages__photo {
