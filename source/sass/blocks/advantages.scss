@@ -26,6 +26,7 @@
 .advantages__item-list {
   padding-left: 20px;
   padding-right: 20px;
+  background-color: #eeeeee;
 
   @media (min-width: 768px) {
     width: 256px;
@@ -57,7 +58,7 @@
 
 .advantages__item-list--mask {
   min-height: 211px;
-  padding: 54px 20px 24px 20px;
+  padding: 74px 20px 37px 20px;
   background-image: url("../img/decor/intro-triangle2.svg");
   background-repeat: no-repeat;
   background-position: center top;
@@ -67,10 +68,6 @@
     padding-top: 42px;
     background: #81b3d2;
   }
-}
-
-.advantages__item-list--color2 {
-  background-color: #eeeeee;
 }
 
 .advantages__container {
@@ -169,6 +166,7 @@
   padding: 11px 20px 12px 70px;
   background-repeat: no-repeat;
   background-position: 22px 3px;
+  background-color: transparent;
 
   @media (min-width: 768px) {
     padding: 133px 31px 39px;
