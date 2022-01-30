@@ -40,6 +40,10 @@
   }
 }
 
+.advantages__item-list:last-child .advantages__container {
+  border-bottom: none;
+}
+
 .advantages__item-list--color {
   min-height: 191px;
   padding: 21px 20px 10px;
