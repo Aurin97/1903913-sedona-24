@@ -67,7 +67,7 @@
   font-weight: bold;
   font-size: 18px;
   margin: 0 auto;
-  padding: 13px 20px 20px 20px;
+  padding: 16px 20px 20px 20px;
   text-align: center;
 
   @media (min-width: 768px) {
@@ -95,7 +95,7 @@
 .form__label2 {
   display: flex;
   align-items: center;
-  margin: 0 0 20px 7px;
+  margin: 0 0 18px 7px;
 
   @media (min-width: 768px) {
     position: relative;
@@ -119,7 +119,7 @@
   font-weight: bold;
   font-size: 18px;
   margin: 0 auto;
-  padding: 10px 20px 15px 20px;
+  padding: 15px 20px 15px 20px;
   text-align: center;
 
   @media (min-width: 768px) {
@@ -186,15 +186,15 @@
 
 .form__input-text2 {
   font-family: "PT Sans", sans-serif;
-  padding: 17px 28px 9px;
+  padding: 15px 22px 9px;
   background-color: #f2f2f2;
   border: none;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
-  width: 290px;
+  width: 250px;
   height: 58px;
-  margin-top: 10px;
+  margin: 10px 0 0 8px;
 
   @media (min-width: 768px) {
     width: 648px;
@@ -215,15 +215,15 @@
 
 .form__input-text3 {
   font-family: "PT Sans", sans-serif;
-  padding: 12px 28px 9px;
+  padding: 10px 22px 9px;
   background-color: #f2f2f2;
   border: none;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
-  width: 280px;
+  width: 250px;
   height: 58px;
-  margin-top: 9px;
+  margin: 7px 0 0 8px;
 
   @media (min-width: 768px) {
     width: 648px;
@@ -306,7 +306,7 @@
 
 .form__icon--email {
   background-image: url("../img/icons/mail.svg");
-  top: 9px;
+  top: 7px;
   right: 8px;
 
   @media (min-width: 768px) {
@@ -323,7 +323,7 @@
 .form__icon--tel {
   background-image: url("../img/icons/phone.svg");
   top: 10px;
-  right: 5px;
+  right: 8px;
 
   @media (min-width: 768px) {
     top: 9px;
@@ -540,7 +540,7 @@
 
 .form__label-text3 {
   display: block;
-  margin: 10px 0 0 30px;
+  margin: 13px 0 0 28px;
 
   @media (min-width: 768px) {
     display: block;
