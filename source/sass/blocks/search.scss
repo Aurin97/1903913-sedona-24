@@ -5,22 +5,23 @@
   @media (min-width: 768px) {
     max-width: 458px;
     margin: 0 auto;
-    padding: 32px 0 58px;
+    padding: 28px 0 58px;
   }
 }
 
 .search__title {
   font-weight: bold;
   font-size: 21px;
+  margin-top: 20px;
 
   @media (min-width: 768px) {
-    margin-bottom: 31px;
+    margin: 25px 0 32px 0;
     font-size: 30px;
   }
 }
 
 .search__text {
-  margin-bottom: 25px;
+  margin: 20px 0 25px 0;
 
   @media (min-width: 768px) {
     margin-bottom: 36px;
