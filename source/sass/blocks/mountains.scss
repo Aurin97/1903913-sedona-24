@@ -84,7 +84,7 @@
 }
 
 .mountains__content {
-  padding: 33px 28px 13px;
+  padding: 33px 28px 16px;
   background-image: url("../img/decor/intro-triangle2.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -94,7 +94,11 @@
     max-width: 625px;
     margin: 0 auto;
     padding-top: 22px;
-    padding-bottom: 60px;
+    padding-bottom: 58px;
+  }
+
+  @media (min-width: 1280px) {
+    padding-bottom: 50px;
   }
 }
 
@@ -133,6 +137,12 @@
   @media (min-width: 768px) {
     width: 450px;
     margin: 20px auto 30px auto;
+    font-size: 21px;
+  }
+
+  @media (min-width: 1280px) {
+    width: 450px;
+    margin: 32px auto 30px auto;
     font-size: 21px;
   }
 }

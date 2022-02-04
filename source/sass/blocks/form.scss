@@ -6,10 +6,11 @@
 }
 
 .form__item {
-  margin-bottom: 17px;
+  margin-bottom: 12px;
 }
 
 .form__fieldset {
+  border: none;
   overflow: hidden;
 
   @media (min-width: 768px) {
@@ -17,7 +18,9 @@
   }
 }
 
-.form__fieldset-2 {
+.form__container {
+  margin-bottom: 5px;
+
   @media (min-width: 768px) {
     display: grid;
     grid-row: 1/2;
@@ -31,7 +34,7 @@
   }
 }
 
-.form__fieldset-3 {
+.form__object {
   margin-top: 0;
 
   @media (min-width: 768px) {
@@ -47,7 +50,7 @@
   }
 }
 
-.form__fieldset-4 {
+.form__wrapper {
   margin-top: 10px;
 
   @media (min-width: 768px) {
@@ -82,17 +85,6 @@
 }
 
 .form__label {
-  padding-left: 82px;
-  min-height: 57px;
-  display: block;
-  position: relative;
-
-  @media (min-width: 1280px) {
-    padding-left: 100px;
-  }
-}
-
-.form__label2 {
   display: flex;
   align-items: center;
   margin: 0 0 18px 7px;
@@ -106,12 +98,6 @@
     position: relative;
     padding: 0 0 0 0;
     text-align: left;
-  }
-}
-
-.form__label-3 {
-  @media (min-width: 768px) {
-    margin-left: 40px;
   }
 }
 
@@ -156,10 +142,10 @@
   }
 }
 
-.form__input-text {
+.form__input {
   font-family: "PT Sans", sans-serif;
-  margin-left: 18px;
-  padding: 10px 17px 9px;
+  margin: 0 8px 0 15px;
+  padding: 9px 21px 9px;
   background-color: #f2f2f2;
   border: none;
   font-size: 18px;
@@ -178,69 +164,7 @@
   }
 }
 
-.form__input-text::placeholder {
-  font-size: 18px;
-  font-weight: bold;
-  color: #000000;
-}
-
-.form__input-text2 {
-  font-family: "PT Sans", sans-serif;
-  padding: 15px 22px 9px;
-  background-color: #f2f2f2;
-  border: none;
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 700;
-  width: 250px;
-  height: 58px;
-  margin: 10px 0 0 8px;
-
-  @media (min-width: 768px) {
-    width: 648px;
-    margin: 7px 48px;
-  }
-
-  @media (min-width: 1280px) {
-    width: 315px;
-    margin: 49px 0 0 5px;
-  }
-}
-
-.form__input-text2::placeholder {
-  font-size: 18px;
-  font-weight: bold;
-  color: #000000;
-}
-
-.form__input-text3 {
-  font-family: "PT Sans", sans-serif;
-  padding: 10px 22px 9px;
-  background-color: #f2f2f2;
-  border: none;
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 700;
-  width: 250px;
-  height: 58px;
-  margin: 7px 0 0 8px;
-
-  @media (min-width: 768px) {
-    width: 648px;
-    margin: 5px 48px;
-  }
-
-  @media (min-width: 1280px) {
-    display: block;
-    position: relative;
-    width: 315px;
-    margin: 0 0 0 770px;
-    top: -60px;
-    left: -18px;
-  }
-}
-
-.form__input-text3::placeholder {
+.form__input::placeholder {
   font-size: 18px;
   font-weight: bold;
   color: #000000;
@@ -374,62 +298,6 @@
   }
 }
 
-.form__legend2 {
-  font-weight: bold;
-  font-size: 18px;
-  width: 280px;
-  margin: 0 auto;
-  padding: 0 20px 20px 20px;
-  text-align: center;
-
-  @media (min-width: 768px) {
-    font-size: 21px;
-    width: 308px;
-    position: relative;
-    top: -8px;
-    left: -2px;
-  }
-
-  @media (min-width: 1280px) {
-    display: block;
-    width: 308px;
-    top: -60px;
-  }
-}
-
-.form__legend-3 {
-  font-weight: bold;
-  font-size: 18px;
-  margin: 0 auto;
-  padding: 20px 20px 13px 20px;
-  text-align: center;
-
-  @media (min-width: 768px) {
-    font-size: 21px;
-    padding-bottom: 50px;
-  }
-}
-
-.form__legend-4 {
-  font-weight: bold;
-  font-size: 18px;
-  margin: 0 auto;
-  padding: 15px 20px 20px 20px;
-  text-align: center;
-
-  @media (min-width: 768px) {
-    padding: 60px 0 0 6px;
-    margin: 0;
-    font-size: 21px;
-    min-height: 50px;
-  }
-
-  @media (min-width: 1280px) {
-    font-size: 21px;
-    margin: 20px 14px 30px 0;
-  }
-}
-
 .form__list {
   @media (min-width: 768px) {
     padding-left: 10px;
@@ -532,7 +400,7 @@
   }
 }
 
-.form__label-text2 {
+.form__label-visual {
   @media (min-width: 1280px) {
     display: none;
   }

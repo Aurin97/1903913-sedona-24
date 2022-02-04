@@ -75,7 +75,7 @@
   padding: 26px 17px 23px 17px;
 
   @media (min-width: 768px) {
-    padding: 0 0 24px 0;
+    padding: 5px 0 24px 0;
   }
 }
 
@@ -106,18 +106,59 @@
   line-height: 21px;
   text-align: center;
   margin: 0;
+
+  @media (min-width: 1280px) {
+    max-width: 280px;
+    margin: 0 auto;
+  }
 }
 
-.advantages__photo {
+.advantages__transfer {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: inline;
+  }
+}
+
+.advantages--volume {
+  max-width: 220px;
+  margin: 18px auto 0 auto;
+
+  @media (min-width: 768px) {
+    max-width: 157px;
+    margin: 0 auto;
+  }
+}
+
+.advantages__hotel {
+  background-image: url("../img/building/hotel-mobile.jpg");
   width: 100%;
   height: 260px;
 
   @media (min-width: 768px) {
+    background-image: url("../img/building/hotel-tablet.jpg");
     height: 256px;
   }
 }
 
-.advantages__photo img {
+.advantages__hotel img {
+  width: 100%;
+  height: 100%;
+}
+
+.advantages__bridge {
+  background-image: url("../img/landscapes/the-devil's-bridge-mobile.jpg");
+  width: 100%;
+  height: 260px;
+
+  @media (min-width: 768px) {
+    background-image: url("../img/landscapes/the-devil's-bridge-tablet.jpg");
+    height: 256px;
+  }
+}
+
+.advantages__bridge img {
   width: 100%;
   height: 100%;
 }
@@ -144,7 +185,13 @@
   }
 }
 
-.advantages__general--second .advantages__photo {
+.advantages__general--second .advantages__hotel {
+  @media (min-width: 768px) {
+    order: -1;
+  }
+}
+
+.advantages__general--second .advantages__bridge {
   @media (min-width: 768px) {
     order: -1;
   }
@@ -152,7 +199,7 @@
 
 .advantages__recommendations {
   margin: 0;
-  padding: 25px 0 21px;
+  padding: 25px 0 20px;
 
   @media (min-width: 768px) {
     display: grid;
@@ -218,22 +265,25 @@
 .advantages__recommendations-item--food {
   background-image: url("../img/decor/burger.svg");
   background-size: 40px 35px;
+  position: relative;
+  left: -3px;
 
   @media (min-width: 768px) {
     background-size: 76px 71px;
+    left: 0;
   }
 }
 
 .advantages__recommendations-item--plus {
   background-image: url("../img/decor/gift.svg");
   background-size: 32px 38px;
-  margin: 3px 0 0 3px;
+  margin-left: 3px;
 
   @media (min-width: 768px) {
     order: 1;
     background-size: 64px 72px;
     margin: 0;
     position: relative;
-    top: -5px;
+    top: -2px;
   }
 }
