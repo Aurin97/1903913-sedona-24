@@ -54,6 +54,10 @@
   @media (min-width: 768px) {
     padding: 42px 30px 10px;
   }
+
+  @media (min-width: 1280px) {
+    padding: 52px 25px 10px;
+  }
 }
 
 .advantages__item-list--mask {
@@ -68,6 +72,10 @@
     padding-top: 42px;
     background: #81b3d2;
   }
+
+  @media (min-width: 1280px) {
+    padding-top: 45px;
+  }
 }
 
 .advantages__container {
@@ -76,6 +84,7 @@
 
   @media (min-width: 768px) {
     padding: 5px 0 24px 0;
+    border: none;
   }
 }
 
@@ -108,8 +117,16 @@
   margin: 0;
 
   @media (min-width: 1280px) {
-    max-width: 280px;
+    max-width: 290px;
     margin: 0 auto;
+  }
+}
+
+.advantages__indent {
+  display: none;
+
+  @media (min-width: 1280px) {
+    display: inline;
   }
 }
 
@@ -118,6 +135,10 @@
 
   @media (min-width: 768px) {
     display: inline;
+  }
+
+  @media (min-width: 1280px) {
+    display: none;
   }
 }
 
@@ -129,6 +150,10 @@
     max-width: 157px;
     margin: 0 auto;
   }
+
+  @media (min-width: 1280px) {
+    max-width: 260px;
+  }
 }
 
 .advantages__hotel {
@@ -138,6 +163,11 @@
 
   @media (min-width: 768px) {
     background-image: url("../img/building/hotel-tablet.jpg");
+    height: 256px;
+  }
+
+  @media (min-width: 1280px) {
+    background-image: url("../img/building/hotel.jpg");
     height: 256px;
   }
 }
@@ -154,6 +184,11 @@
 
   @media (min-width: 768px) {
     background-image: url("../img/landscapes/the-devil's-bridge-tablet.jpg");
+    height: 256px;
+  }
+
+  @media (min-width: 1280px) {
+    background-image: url("../img/landscapes/the-devil's-bridge.png");
     height: 256px;
   }
 }
@@ -209,6 +244,7 @@
   @media (min-width: 1280px) {
     display: grid;
     grid-template-columns: repeat(3, 400px);
+    padding-bottom: 40px;
   }
 }
 

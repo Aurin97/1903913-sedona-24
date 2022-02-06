@@ -83,6 +83,7 @@
   @media (min-width: 1280px) {
     grid-template-columns: auto 540px auto auto;
     padding-right: 30px;
+    padding-top: 33px;
   }
 }
 
@@ -149,6 +150,11 @@
   @media (min-width: 768px) {
     top: -3px;
     left: 112px;
+  }
+
+  @media (min-width: 1280px) {
+    top: -3px;
+    left: 115px;
   }
 }
 

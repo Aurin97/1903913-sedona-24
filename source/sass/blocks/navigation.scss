@@ -111,6 +111,14 @@
   }
 }
 
+.navigation__link:hover {
+  color: #81b3d2;
+}
+
+.navigation__link:active {
+  color: #000000;
+}
+
 .navigation__gallery {
   @media (min-width: 1280px) {
     position: relative;
@@ -125,5 +133,9 @@
 }
 
 .navigation__link--active {
+  color: #766357;
+}
+
+.navigation__link--active:hover {
   color: #766357;
 }

@@ -98,7 +98,7 @@
   }
 
   @media (min-width: 1280px) {
-    padding-bottom: 50px;
+    padding-bottom: 45px;
   }
 }
 
@@ -125,6 +125,10 @@
   @media (min-width: 768px) {
     width: 500px;
     padding: 54px 0 31px 0;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 94px 0 31px 0;
   }
 }
 
