@@ -58,6 +58,10 @@
   padding-bottom: 27px;
 }
 
+.form__fieldset--experience {
+  padding-bottom: 28px;
+}
+
 .form__control--vertical {
   display: grid;
   grid-template-columns: 1fr;
@@ -88,11 +92,11 @@
 
 .form__list {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 24px;
 }
 
 .form__list--radio {
-  grid-gap: 0;
+  grid-gap: 13px;
 }
 
 .form__item {
@@ -137,9 +141,9 @@
   font-size: 18px;
 }
 
-.form__fieldset--location {
-  padding-top: 5px;
-  padding-bottom: 13px;
+.form__fieldset--attraction {
+  padding-top: 15px;
+  padding-bottom: 26px;
 }
 
 .form__attractions-mark {
